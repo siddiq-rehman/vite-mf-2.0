@@ -17,4 +17,10 @@ import { loadRemote, registerRemotes } from '@module-federation/enhanced/runtime
     document.querySelector('#app').appendChild(mfeDynamicElement);
   }
 
+function sum(a,b){
+
+  return a+b;
+
+}
+
   loadMFERemote();
